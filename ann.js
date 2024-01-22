@@ -87,7 +87,7 @@ export class ArtificialNeuralNetwork {
 	}
 
 	reset_layers () {
-		// [ layer1: [ node1=0, node2=1 ], layer2: [ node1=0, node2=1 ] ]
+		// [ layer1: [ node1=0, node2=1 ], layer2: [ node1=0, node2=1 ]]
 		this.layers = [];
 		let next_layer_size = 0;
 		for (let i = 0; i < this.weights.length; i++) {
